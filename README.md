@@ -29,6 +29,12 @@ A previous installation was found!! Do you want to replace it? [Y/n]
 If you press Y then it replace old installation
 And if you press N then tool get's close.
 
+### How to use
+just type command osinfo
+```
+osinfo
+```
+
 ## Screenshot
 
 ![CrazyIndianDeveloper](https://github.com/CrazyIndianDeveloper/osinfo/blob/main/screenshots/installing.png?raw=true "osinfo.")
