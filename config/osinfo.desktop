@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=osinfo
+Comment=CrazyIndianDeveloper'sOSINFO
+Encoding=UTF-8
+Exec=sh -c "osinfo;${SHELL:-bash}"
+Icon=osinfo.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=01-info-gathering;
+X-Kali-Package=osinfo
+Name[C]=osinfo

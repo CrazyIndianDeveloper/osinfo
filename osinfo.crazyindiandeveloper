@@ -1,0 +1,55 @@
+#!/bin/sh
+#OSINFO v1.0
+#Powered by Crazy Indian Developer
+#Created by Crazy Indian Developer
+#Credits goes to CrazyIndianDeveloper [github.com/CrazyIndianDeveloper]
+
+
+clear
+printf "\e[0;31m                  ██████╗ ███████╗\e[0m\n"
+printf "\e[0;31m                 ██╔═══██╗██╔════╝\e[0m\n"
+printf "\e[0;31m                 ██║   ██║███████╗\e[0m\n"
+printf "\e[0;31m                 ██║   ██║╚════██║\e[0m\n"
+printf "\e[0;31m                 ╚██████╔╝███████║\e[0m\n"
+printf "\e[0;31m                  ╚═════╝ ╚══════╝\e[0m\n"
+
+printf "\e[0;37m              ██╗███╗   ██╗███████╗ ██████╗ \e[0m\n"
+printf "\e[0;37m              ██║████╗  ██║██╔════╝██╔═══██╗\e[0m\n"
+printf "\e[0;37m              ██║██╔██╗ ██║█████╗  ██║   ██║\e[0m\n"
+printf "\e[0;37m              ██║██║╚██╗██║██╔══╝  ██║   ██║\e[0m\n"
+printf "\e[0;37m              ██║██║ ╚████║██║     ╚██████╔╝\e[0m\n"
+printf "\e[0;37m              ╚═╝╚═╝  ╚═══╝╚═╝      ╚═════╝ \e[0m\n"
+
+printf " \e[1;31m \t\tBy- Crazy Indian Developer \e[0m \n"
+
+
+echo Subscribe-- https://www.youtube.com/channel/UCnij5U2Ic3PtpzCWmmydP7g
+printf "\n"
+echo More Tools at- https://github.com/CrazyIndianDeveloper
+#printf "\n"
+printf " \e[1;31m \t\t---------------------------------------------------- \e[0m \n"
+#printf "\n"
+
+cat /etc/os-release
+
+printf " \e[1;31m \t\t---------------------------------------------------- \e[0m \n"
+
+uname
+uname -m
+uname -r
+uname -v
+uname -o
+CPU_INFO=`cat /proc/cpuinfo | grep -i "^model name" | cut -d ":" -f2 | sed -n '1p'`
+			echo "CPU model: $CPU_INFO"
+
+SYSTEM_IP=`hostname -I`
+			echo System IP is: $SYSTEM_IP
+
+
+
+
+
+
+                              
+                 
+                                               
