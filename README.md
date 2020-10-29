@@ -17,6 +17,8 @@ Open Terminal goto the osinfo folder.
 Type Following Commands (Always run this tool as root):-
 
 ```
+cd osinfo/
+sudo chmod +x ./installer.sh
 sudo ./installer.sh
 ```
 It's Installing...
@@ -34,6 +36,7 @@ just type command osinfo
 ```
 osinfo
 ```
+OR direct search on menu
 
 ## Screenshot
 
